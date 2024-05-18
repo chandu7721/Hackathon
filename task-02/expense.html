@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense </title>
+    <link rel="stylesheet" href="expense.css">
+</head>
+<body>
+    <h1>EXPENSE TRACKER</h1>
+    Amount :
+    <input type="text" id="amount" required><br>
+    Category :
+    <input type="text" id="category" required><br>
+    Date :
+    <input type="date" id="date" required><br>
+    <button onclick="addValue()">SUBMIT</button><br>
+    <table>
+        <thead>
+            
+            <th>Amount</th>
+            <th>Category</th>
+            <th>Date</th>
+            <th>Edit/Delete</th>
+        </thead>
+        <tbody id="text"></tbody>
+    </table>
+    <script src="expense.js"></script>
+    
+</body>
+</html>
